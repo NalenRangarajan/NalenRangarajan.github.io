@@ -1,0 +1,22 @@
+#title {
+	background-color: deepskyblue;
+	text-align: center;
+	color: black;
+}
+
+body {
+	background-color: slategray;
+}
+
+a:link, a:visited {
+	background-color: blueviolet;
+	color: black;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color: darkslateblue;
+}
