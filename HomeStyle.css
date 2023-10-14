@@ -20,3 +20,20 @@ a:link, a:visited {
 a:hover, a:active {
 	background-color: darkslateblue;
 }
+
+h2 {
+	background-color: royalblue;
+	text-align: center;
+	color: black;
+}
+
+h3 {
+	background-color: lightskyblue;
+	text-align: center;
+	color: black;
+}
+h4 {
+	background-color: rosybrown;
+	text-align: center;
+	color: black;
+}

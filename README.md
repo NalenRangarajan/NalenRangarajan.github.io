@@ -1,2 +1,4 @@
 # SandbagClimbing
-Website for climbing brand
+Website for a Climbing brand
+
+Work in progress
