@@ -1,61 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="HomeStyle.css">
-        <title>Sandbag Climbing</title>
-    </head>
-    <body>
-        <h1 id="title">Sandbag Climbing</h1>
-        <br/>
-        <h2>
-            Our Socials!
-        </h2>
-        <a href="https://www.tiktok.com/@sandbag.climbing?lang=en">TikTok</a>
 
-        <a href="https://www.youtube.com/@SandbagClimbing">Youtube</a>
-        <h3>
-            Our Current Grade Levels:
-        </h3>
-        <p>
-            Austin: V5-6
-            <br/>
-            Nalen: V3
-        </p>
+<head>
+    <link rel="stylesheet" href="HomeStyle.css">
+    <title>Sandbag Climbing</title>
+</head>
 
-        <h4>
-            Contact us!
-        </h4>
-        <div class="container">
-            <form action="action_page.php">
+<body>
+    <h1 id="title">Sandbag Climbing</h1>
+    <br />
+    <h2>
+        Our Socials!
+    </h2>
+    <a href="https://www.tiktok.com/@sandbag.climbing?lang=en">TikTok</a>
 
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <a href="https://www.youtube.com/@SandbagClimbing">Youtube</a>
+    <h3>
+        Our Current Grade Levels:
+    </h3>
+    <p>
+        Austin: V5-6
+        <br />
+        Nalen: V3
+    </p>
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <h4>
+        Contact us!
+    </h4>
+    <div class="container">
+        <form action="action_page.php">
 
-                <label for="email">Email</label>
-                <input type="text" id="email" name="emailAddress" placeholder="Your Email Addres...">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Your Name..">
+            <br />
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="emailAddress" placeholder="Your Email Address...">
+            <br />
+            <label for="location">Where are you from? </label>
+            <input type="text" id="location" name="location" placeholder="Kansas, USA">
 
-                <label for="continent">Continent</label>
-                <select id="continent" name="Continent">
-                    <option value="north america">North America</option>
-                    <option value="south america">South America</option>
-                    <option value="europe">Europe</option>
-                    <option value="asia">Asia</option>
-                    <option value="africa">Africa</option>
-                    <option value="australia">Australia/Oceania</option>
 
-                </select>
+            <label for="subject">Your Message!</label>
+            <textarea id="subject" name="subject" placeholder="Write Your Message Here!" style="height:200px"></textarea>
+            <br />
+            <input type="submit" value="Send Email!">
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </form>
+    </div>
+</body>
 
-                <input type="submit" value="Submit">
-
-            </form>
-        </div>
-    </body>
-    
 
 </html>
