@@ -25,9 +25,36 @@
         <h4>
             Contact us!
         </h4>
-        <p>
-            Email: SandbagClimbing@gmail.com
-        </p>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="emailAddress" placeholder="Your Email Addres...">
+
+                <label for="continent">Continent</label>
+                <select id="continent" name="Continent">
+                    <option value="north america">North America</option>
+                    <option value="south america">South America</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="africa">Africa</option>
+                    <option value="australia">Australia/Oceania</option>
+
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
     </body>
     
 
